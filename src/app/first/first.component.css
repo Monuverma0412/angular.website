@@ -1,0 +1,172 @@
+* {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+#content {
+    padding: 20px;
+}
+
+
+  nav, div {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px;
+  }
+  header {
+    background-color: #333; 
+    color: #fff; 
+    padding: 45px;
+    width: 100%;
+  }
+
+.column {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.column a {
+    display: flex;
+    margin-bottom: 8px;
+    color: white;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-top: 1px solid #ddd;
+}
+
+footer p {
+    margin: 0;
+    color: #333;
+    font-size: 14px;
+}
+#p{
+    color: #ddd;
+}
+
+.colorful-box {
+    max-width: 600px;
+    width: 30%;
+    height: 250px;
+    margin: 50px;
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 16px;
+    background: linear-gradient(45deg, #FF6B6B, #FF8E53);
+    color: whitesmoke;
+    margin-left: 10%;
+}
+
+h1 {
+    color: #fff;
+}
+
+.metrics {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.metrics span {
+    font-weight: bold;
+}
+
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-right: 12%;
+}
+
+.button-container {
+    max-width: 300px;
+    text-align: right;
+    border: 2px solid lightblue;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.button-container button {
+    margin: 5px;
+}
+
+
+.left-box  {
+    width: 35%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-left: 8%;
+}
+.right-box {
+    width: 35%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-left: 7%;
+}
+
+.left-box {
+    order: 1;
+}
+
+.right-box {
+    order: 2;
+}
+.aa{
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-color:oldlace;
+}
+
+* {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  
+  @media screen and (max-width: 600px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+      text-align: left;
+    }
+  
+  }
+  
